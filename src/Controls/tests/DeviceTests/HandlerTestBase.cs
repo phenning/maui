@@ -292,6 +292,9 @@ namespace Microsoft.Maui.DeviceTests
 
 		protected Task OnNavigatedToAsync(Page page, TimeSpan? timeOut = null)
 		{
+			if (page.HasNavigatedTo)
+				return Task.CompletedTask;
+
 			timeOut = timeOut ?? TimeSpan.FromSeconds(2);
 			TaskCompletionSource<object> taskCompletionSource = new TaskCompletionSource<object>();
 
