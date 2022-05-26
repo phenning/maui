@@ -4,10 +4,12 @@
 	{
 		public const string Behavior = "Behavior";
 		public const string Button = "Button";
+		public const string Compatibility = "Compatibility";
 		public const string Dispatcher = "Dispatcher";
 		public const string Editor = "Editor";
 		public const string Element = "Element";
 		public const string Entry = "Entry";
+		public const string Frame = "Frame";
 		public const string FlyoutPage = "FlyoutPage";
 		public const string Gesture = "Gesture";
 		public const string Label = "Label";
